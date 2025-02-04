@@ -45,9 +45,9 @@ npm install
 
 ## 🚀 Usage
 ### Start the Server
-    ```bash
-    npm start
-    ```
+```bash
+npm start
+```
 
 ### Access the API
 -The server will run on http://localhost:3000 by default.

@@ -74,7 +74,7 @@ Contributions are welcome! If you have suggestions, improvements, or bug fixes, 
 ## 📄 License
 This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 - Special thanks to all contributors and the open-source community.
 - Gratitude to the maintainers of the libraries used in this project.
 

@@ -1,4 +1,4 @@
-# AI Models Integration in Node.js with Express.js
+# AI Models Integration with Node.js
 
 ![openai-nodejs](https://github.com/JawherKl/ai-models-integration/blob/main/openai-nodejs.png)
 

@@ -1,5 +1,7 @@
 # AI Models Integration
 
+![openai-nodejs](https://github.com/JawherKl/ai-models-integration/blob/main/openai-nodejs.png)
+
 Welcome to the **AI Models Integration** repository! This project provides seamless integration with various state-of-the-art AI models, offering a unified API for efficient interaction.
 
 ## 🚀 Features

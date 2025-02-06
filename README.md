@@ -21,9 +21,9 @@ Welcome to the **AI Models Integration** repository! This project provides seaml
 
 ## 🛠️ Technologies Used
 
-- **Node.js* JavaScript runtime environment.
-- **Express* Fast, unopinionated, minimalist web framework for Node.js.
-- **OpenAI SDK* Integration with OpenAI's API for AI model interaction.
+- *Node.js*: JavaScript runtime environment.
+- *Express*: Fast, unopinionated, minimalist web framework for Node.js.
+- *OpenAI SDK*: Integration with OpenAI's API for AI model interaction.
 
 ## 📦 Installation
 ### Step 1: Clone the Repository

@@ -88,4 +88,5 @@ model: "deepseek/deepseek-r1",
 model: "openai/gpt-4o-mini",
 model: "meta-llama/llama-3.2-3b-instruct",
 model: "mistralai/mistral-small",
+https://openrouter.ai/models
 -->

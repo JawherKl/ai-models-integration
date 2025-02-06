@@ -58,14 +58,14 @@ npm start
 ```bash
 curl -X POST http://localhost:3000/search \
   -H "Content-Type: application/json" \
-  -d '{"query": "Latest advancements in renewable energy 2025"}'
+  -d '{"model": "change_with_model_example", "query": "Latest advancements in renewable energy 2025"}'
 ```
 
 #### Analysis request
 ```bash
 curl -X POST http://localhost:3000/analyze \
   -H "Content-Type: application/json" \
-  -d '{"text": "Tesla announced new solar roof technology with 25% improved efficiency in Q4 2023."}'
+  -d '{"model": "change_with_model_example", "text": "Tesla announced new solar roof technology with 25% improved efficiency in Q4 2023."}'
 ```
 
 ## 🤝 Contributing

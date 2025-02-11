@@ -8,7 +8,7 @@ export async function semanticSearch(query, model) {
 
   try {
     const completion = await openai.chat.completions.create({
-      model: model || "gpt-4-turbo",
+      model: model || "gpt-4o-mini",
       messages: [
         {
           role: "system",

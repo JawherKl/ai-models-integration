@@ -1,9 +1,9 @@
 import openai from "../config/openAIConfig.mjs";
 
-export async function analyzeData(text) {
+export async function analyzeData(text, model) {
   try {
     const completion = await openai.chat.completions.create({
-      model: "gpt-4-turbo",
+      model: model || "gpt-4o-mini",
       messages: [
         {
           role: "system",

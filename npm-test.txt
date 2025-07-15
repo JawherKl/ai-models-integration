@@ -1,0 +1,35 @@
+
+> ia-models-integration@1.0.0 test
+> node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --detectOpenHandles
+
+(node:782681) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS test/service/cacheService.spec.mjs
+PASS test/search.spec.mjs
+PASS test/analyze.spec.mjs
+PASS test/validators/modelValidator.spec.mjs
+PASS test/service/providerService.spec.mjs
+----------------------|---------|----------|---------|---------|-------------------
+File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------------------|---------|----------|---------|---------|-------------------
+All files             |   90.62 |       50 |     100 |   89.28 |                   
+ config               |     100 |       50 |     100 |     100 |                   
+  openAIConfig.mjs    |     100 |      100 |     100 |     100 |                   
+  redisConfig.mjs     |     100 |       50 |     100 |     100 | 7-8               
+ constants            |     100 |      100 |     100 |     100 |                   
+  supportedModels.mjs |     100 |      100 |     100 |     100 |                   
+ services             |   86.95 |       50 |     100 |      85 |                   
+  analyzeService.mjs  |     100 |    33.33 |     100 |     100 | 4-17              
+  cacheService.mjs    |     100 |    66.66 |     100 |     100 | 8                 
+  llmService.mjs      |     100 |       40 |     100 |     100 | 13-19             
+  providerService.mjs |     100 |      100 |     100 |     100 |                   
+  searchService.mjs   |   66.66 |       40 |     100 |    62.5 | 22-24             
+ validators           |     100 |      100 |     100 |     100 |                   
+  modelValidator.mjs  |     100 |      100 |     100 |     100 |                   
+----------------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 5 passed, 5 total
+Tests:       12 passed, 12 total
+Snapshots:   0 total
+Time:        0.651 s, estimated 1 s
+Ran all test suites.

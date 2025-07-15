@@ -1,0 +1,22 @@
+
+> ia-models-integration@1.0.0 test
+> node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --detectOpenHandles
+
+----------------------|---------|----------|---------|---------|-------------------
+File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------------------|---------|----------|---------|---------|-------------------
+All files             |   65.62 |    36.36 |   81.81 |   64.28 |                   
+ config               |     100 |       50 |     100 |     100 |                   
+  openAIConfig.mjs    |     100 |      100 |     100 |     100 |                   
+  redisConfig.mjs     |     100 |       50 |     100 |     100 | 7-8               
+ constants            |     100 |      100 |     100 |     100 |                   
+  supportedModels.mjs |     100 |      100 |     100 |     100 |                   
+ services             |   52.17 |    33.33 |   77.77 |      50 |                   
+  analyzeService.mjs  |     100 |    66.66 |     100 |     100 | 17                
+  cacheService.mjs    |       0 |        0 |       0 |       0 | 4-9               
+  llmService.mjs      |     100 |       40 |     100 |     100 | 13-19             
+  providerService.mjs |     100 |      100 |     100 |     100 |                   
+  searchService.mjs   |   11.11 |        0 |     100 |    12.5 | 8-24              
+ validators           |     100 |      100 |     100 |     100 |                   
+  modelValidator.mjs  |     100 |      100 |     100 |     100 |                   
+----------------------|---------|----------|---------|---------|-------------------

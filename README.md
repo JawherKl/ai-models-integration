@@ -140,3 +140,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 * **Streaming** capability enhances user experience by pushing partial AI completions as they are generated.
 * **Prometheus Monitoring** enables tracking of detailed API metrics facilitating proactive maintenance and scaling.
 * **Error Handling** is robust, ensuring that all exceptions are caught and logged for debugging and analysis.
+
+[![Stargazers over time](https://starchart.cc/JawherKl/ai-models-integration.svg?variant=adaptive)](https://starchart.cc/JawherKl/ai-models-integration)

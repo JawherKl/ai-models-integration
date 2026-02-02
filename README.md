@@ -63,7 +63,7 @@ docker run -d --name redis -p 6379:6379 redis
 ### Step 4: Configure Environment Variables
 
 * Create a `.env` file in the root directory.
-* Add your API keys and service configurations:
+* Add your API keys created from openrouter and other service configurations:
 
 ```bash
 API_KEY=your_api_key_here

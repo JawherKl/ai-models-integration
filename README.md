@@ -141,4 +141,12 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 * **Prometheus Monitoring** enables tracking of detailed API metrics facilitating proactive maintenance and scaling.
 * **Error Handling** is robust, ensuring that all exceptions are caught and logged for debugging and analysis.
 
-[![Stargazers over time](https://starchart.cc/JawherKl/ai-models-integration.svg?variant=adaptive)](https://starchart.cc/JawherKl/ai-models-integration)
+## Star History
+
+<a href="https://www.star-history.com/?repos=jawherkl%2Fai-models-integration&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=jawherkl/ai-models-integration&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=jawherkl/ai-models-integration&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=jawherkl/ai-models-integration&type=date&legend=top-left" />
+ </picture>
+</a>
